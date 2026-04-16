@@ -2,7 +2,13 @@ import subprocess
 import sys
 from pathlib import Path
 
+import pytest
 
+
+@pytest.mark.skipif(
+    not (Path(__file__).resolve().parents[2] / "services" / "response-control-framework").exists(),
+    reason="Wiki drift check runs in the mhold3n/server monorepo only",
+)
 def test_wiki_orchestration_drift() -> None:
     """Ensure orchestration JSONs are in sync with Wiki markdown (after domain sync)."""
     here = Path(__file__).resolve()
