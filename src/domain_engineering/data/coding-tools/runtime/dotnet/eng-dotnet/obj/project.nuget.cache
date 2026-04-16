@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "h785UiXITs4=",
+  "success": true,
+  "projectFilePath": "/Users/maxholden/GitHub/server/knowledge/coding-tools/runtime/dotnet/eng-dotnet/KnowledgeDotnetRuntime.csproj",
+  "expectedPackageFiles": [
+    "/Users/maxholden/.nuget/packages/mathnet.numerics/5.0.0/mathnet.numerics.5.0.0.nupkg.sha512",
+    "/Users/maxholden/.nuget/packages/picogk/1.7.7.5/picogk.1.7.7.5.nupkg.sha512",
+    "/Users/maxholden/.nuget/packages/unitsnet/5.75.0/unitsnet.5.75.0.nupkg.sha512",
+    "/Users/maxholden/.nuget/packages/microsoft.netcore.app.ref/9.0.13/microsoft.netcore.app.ref.9.0.13.nupkg.sha512",
+    "/Users/maxholden/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.13/microsoft.aspnetcore.app.ref.9.0.13.nupkg.sha512",
+    "/Users/maxholden/.nuget/packages/microsoft.netcore.app.host.osx-arm64/9.0.13/microsoft.netcore.app.host.osx-arm64.9.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

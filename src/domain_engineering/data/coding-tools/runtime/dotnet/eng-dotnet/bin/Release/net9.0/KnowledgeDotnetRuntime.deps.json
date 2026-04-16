@@ -1,0 +1,134 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "KnowledgeDotnetRuntime/1.0.0": {
+        "dependencies": {
+          "MathNet.Numerics": "5.0.0",
+          "PicoGK": "1.7.7.5",
+          "UnitsNet": "5.75.0"
+        },
+        "runtime": {
+          "KnowledgeDotnetRuntime.dll": {}
+        }
+      },
+      "MathNet.Numerics/5.0.0": {
+        "runtime": {
+          "lib/net6.0/MathNet.Numerics.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "PicoGK/1.7.7.5": {
+        "runtime": {
+          "lib/net9.0/PicoGK.dll": {
+            "assemblyVersion": "1.7.7.5",
+            "fileVersion": "1.7.7.5"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/osx-arm64/native/picogk.1.7.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/picogk.1.7_liblzma.5.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-arm64/native/picogk.1.7_libzstd.1.dylib": {
+            "rid": "osx-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/blosc.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/lz4.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/picogk.1.7.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/tbb12.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/zlib1.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/zstd.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "UnitsNet/5.75.0": {
+        "runtime": {
+          "lib/net9.0/UnitsNet.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.75.0.0"
+          }
+        },
+        "resources": {
+          "lib/net9.0/fr-CA/UnitsNet.resources.dll": {
+            "locale": "fr-CA"
+          },
+          "lib/net9.0/nb-NO/UnitsNet.resources.dll": {
+            "locale": "nb-NO"
+          },
+          "lib/net9.0/ru-RU/UnitsNet.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "lib/net9.0/zh-CN/UnitsNet.resources.dll": {
+            "locale": "zh-CN"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KnowledgeDotnetRuntime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MathNet.Numerics/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pg1W2VwaEQMAiTpGK840hZgzavnqjlCMTVSbtVCXVyT+7AX4mc1o89SPv4TBlAjhgCOo9c1Y+jZ5m3ti2YgGgA==",
+      "path": "mathnet.numerics/5.0.0",
+      "hashPath": "mathnet.numerics.5.0.0.nupkg.sha512"
+    },
+    "PicoGK/1.7.7.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wTrKEkDRFQ+6z6ci2223jECC9mIx1/IuGyaJI+/Ps3qhNIjxSdfGf1W/XS9YhHznB0hKewstco0CswcySzUaAg==",
+      "path": "picogk/1.7.7.5",
+      "hashPath": "picogk.1.7.7.5.nupkg.sha512"
+    },
+    "UnitsNet/5.75.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CgzvfvE2FaFE+swo7SzZFjhosmh4GpiVJ7Y1N4cQ1qChaUaw3ymw4al+ZxpoBh1RFoo88d+fo2SG194P9G1X+A==",
+      "path": "unitsnet/5.75.0",
+      "hashPath": "unitsnet.5.75.0.nupkg.sha512"
+    }
+  }
+}
