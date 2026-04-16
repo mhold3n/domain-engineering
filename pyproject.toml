@@ -17,5 +17,20 @@ dependencies = [
 [tool.hatch.build.targets.wheel]
 packages = ["src/domain_engineering"]
 
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "ruff>=0.4.0",
+    "mypy>=1.8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+
 [tool.uv]
 managed = true
+
+[tool.uv.sources]
+response-control-framework = { git = "https://github.com/mhold3n/response-control-framework", tag = "v0.1.0" }
+ai-shared-service = { git = "https://github.com/mhold3n/ai-shared-service", tag = "v0.1.0" }
